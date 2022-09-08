@@ -21,7 +21,7 @@ int main(){
   //a print function 
   //create a linked list with 1,2,3,4,5
   // Node* listss = new Node(1, new Node(3,  nullptr));
-  Node* listss = new Node(1, new Node(2, new Node(3, new Node(4, nullptr))));
+  Node* listss = new Node(1, new Node(2, new Node(3, new Node(4, new Node(5, nullptr)))));
   Node* odd_num = NULL;
   Node* even_num = NULL;
 
