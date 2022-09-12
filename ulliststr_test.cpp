@@ -38,9 +38,9 @@ int main(int argc, char* argv[])
 
   //testing the back/frontfunction 
   cout << "testing back and front function with case2:" << endl;
-  cout << "back: " << case2.back() << endl;
   cout << "front: " << case2.front() << endl;
-  
+  cout << "back: " << case2.back() << endl;
+
   return 0;
 }
 

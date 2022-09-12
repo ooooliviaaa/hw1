@@ -210,7 +210,7 @@ std::string const & ULListStr::front() const{
 
 
 std::string const & ULListStr::back() const{
-  return tail_->val[tail_->last]; 
+  return tail_->val[--tail_->last]; 
 }
 
 
